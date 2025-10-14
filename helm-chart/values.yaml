@@ -1,0 +1,8 @@
+grafana:
+  sidecar:
+    dashboards:
+      enabled: true
+  dashboards:
+    default:
+      demo:
+        file: dashboards/demo-dashboard.json
