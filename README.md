@@ -2,6 +2,6 @@
 
 ## اجرای پروژه
 ```bash
-mvn clean package
-java -jar target/grafana-demo-0.0.1-SNAPSHOT.jar
+mvnw clean package
+mvnw spring-boot:run
 docker-compose up -d
